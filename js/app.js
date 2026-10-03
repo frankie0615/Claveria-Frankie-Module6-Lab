@@ -3,7 +3,7 @@
 // =====================================================
 
 function isValidStudentNumber(value) {
-    return /^\d{2}-\d{4}-\d{3}$/.test(value.trim());
+    return /^24-\d{4}-\d{3}$/.test(value.trim());
 }
 
 function isValidPassword(value) {
